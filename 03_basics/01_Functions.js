@@ -59,3 +59,11 @@ function letstest(anyobj){
     console.log(`Username is ${anyobj.username} and the amount to be paid is ${anyobj.price}`);
 }
 letstest(myobj);
+
+
+//now lets pass array inside a function
+const arr=[200,567,43,6,789,999]
+function arrtest(newasrr){
+    return newasrr[4];
+}
+console.log(arrtest(arr));
