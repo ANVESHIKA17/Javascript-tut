@@ -36,7 +36,7 @@ function func1(username){
     if(username===undefined) //(!username)
     {
         console.log("please enter a username");
-        return //this wilm stop the func to go further below in the code
+        return //this will stop the func to go further below in the code
     }
     return `${username}, hi welcome `;
 }
@@ -44,7 +44,7 @@ console.log(func1("anurag"));
 
 
 
-//using rest operator to get any num of inputs ed cart of a shopping website
+//using rest operator to get any num of inputs eg cart of a shopping website
 function calculateCartPrice(...num1){
     return num1
 }
